@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            height: 80vh;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-evenly;
+            margin: auto;
+            background-color: rgb(219, 219, 211);
+            margin-top: 5%;
+            position: relative;
+            
+        }
+        main .content-1{
+            display: flex;
+            /* align-items: center; */
+            justify-content: space-evenly;
+            flex-direction: column;
+            text-align: left;
+            /* gap: -3px; */
+            height: 10vh;
+            width: 30%;
+            /* position: relative; */
+            /* border: 2px solid; */
+        }
+        .content-1 h3{
+            color: rgb(19, 68, 228);
+            font-size: 35px;
+            font-weight: bolder;
+            margin-bottom: 0px;
+            
+        }
+        .content-1 p{
+            margin-top: 0;
+            color: grey;
+
+        }
+        main .content-2{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 42vh;
+            width: 30%;
+            gap: 8px;
+
+
+        }   
+        button{
+            width: 90%;
+            border-radius: 10px;
+            text-align: left;
+            font-size: 12px;
+            padding: 4px;
+            color: grey;
+            border: 1px solid grey;
+            margin-bottom: 2px;
+        }
+        .one,.two,.three{
+            text-align: center;
+            color: blue;
+        }
+        .one{
+            color: beige ;
+            background-color: rgb(7, 103, 247);
+            border: transparent;
+            padding: 6px;
+            /* width: 70%; */
+            text-align: center;
+            font-weight: bolder;
+            font-size: 15px;
+
+
+        }
+        .two{
+            font-size: 10px;
+            
+
+        }
+        .three{
+            width: 55%;
+            background-color: rgb(25, 194, 25);
+            color: beige;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 12px;
+            margin-top: 20px;
+            padding: 8px;
+        }
+         section .content-3{
+            position: absolute;
+            bottom: 130px;
+            right: 210px;
+            margin: auto;
+
+        }
+        .content-3 p{
+            font-size: small;
+            
+        }
+
+         </style>
+</head>
+<body>
+    <main>
+        <div class="content-1">
+            <h3>facebook</h3>
+            <p >Facebook helps you connect and share with people in your life</p>
+        </div>
+        <div class="content-2">
+            <!-- <form action="#">
+                <input type="email or number" placeholder="email address or phone number "><br>
+                <input type="password" placeholder="password"><br>
+            </form> -->
+            <button>Email address or phone number </button>
+            <button>Password</button>
+            <button class="one">Log in</button>
+            <p class="two">forgot password ?</p>
+            <button class="three"> Create New Account</button>
+        </div>
+        
+    </main>
+    <section>
+        <div class="content-3">
+            <p><b>Create a Page</b> for celebrity, brand or business</p>
+        </div>
+
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            margin-top: 5%;
+            height: 80vh;
+            width: 80%;
+            background-color: rgba(199, 199, 190, 0.678);
+        }
+
+        main .im img {
+            height: 100%;
+
+            width: 103%;
+        }
+
+        main .content {
+            height: 100%;
+            width: 100%;
+            display: grid;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            background-color: white;
+            padding-left: 10px;
+
+        }
+
+        .content .logo-1 img,
+        button img {
+            height: 15px;
+
+        }
+
+        .content h3 {
+            font-size: 45px;
+            font-weight: bolder;
+
+        }
+
+        .content h5 {
+            font-size: 25px;
+
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            flex-direction: column;
+            height: 26vh;
+            width: 90%;
+            margin-top: -10px;
+            /* border: 2px solid; */
+
+        }
+
+        button {
+            width: 63%;
+            /* height: 22px; */
+            text-align: center;
+            padding: 2px;
+            font-size: 10px;
+            background-color: white;
+            border: 1px solid;
+            color: grey;
+            border-radius: 30px;
+            margin-bottom: 4px;
+
+        }
+
+        p {
+
+            padding-left: 90px;
+            margin-top: -5px;
+            color: grey;
+
+        }
+
+        .container .one {
+            background-color: rgb(20, 122, 238);
+            color: beige;
+            font-size: 12px;
+            font-weight: bolder;
+            padding: 10px;
+
+        }
+
+        .container .onee {
+            color: grey;
+            text-align: left;
+            padding-left: 2px;
+            font-size: 10px;
+            width: 70%;
+        }
+
+        .container .zero {
+            color: black;
+        }
+
+        .container span {
+            color: rgb(20, 122, 238);
+        }
+
+        .content .two {
+            /* text-align: left; */
+            padding-left: 0px;
+            font-weight: bolder;
+            font-size: 15px;
+            color: rgba(10, 8, 8, 0.842);
+        }
+
+        .content .three {
+            /* background-color: white; */
+            color: rgb(20, 122, 238);
+            font-size: 12px;
+            font-weight: bolder;
+            padding: 10px;
+            border: 1px solid grey;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="im"><img src="./twitter_bg.jpg" alt="a"></div>
+        <div class="content">
+            <div class="logo-1"><img src="./twitter_logo.png" alt="a"></div>
+            <h3>Happening now</h3>
+            <h5>Join Twitter Today.</h5>
+            <div class="container">
+                <button><img src="./google_logo.jfif" alt="aa">Sign up with Google</button>
+                <button class="zero"><img src="./apple_logo.png" alt="aa">Sign up with Apple</button>
+                <p>or</p>
+                <button class="one">Sign up with phone or email</button>
+                <p class="onee">By Signing up, you agree to the <span>Terms of Service</span> and <span>Privacy
+                        Policy,</span> including
+                    <span>Cookie Use</span>
+                </p>
+            </div>
+
+            <p class="two">Already have an account?</p>
+            <button class="three">Sign in</button>
+        </div>
+    </main>
+
+</body>
+
+</html>
