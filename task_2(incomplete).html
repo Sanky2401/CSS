@@ -9,165 +9,162 @@
             margin: 0;
             padding: 0;
         }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-top: 60px; */
+            
+        }
         .chess{
             height: 400px;
             width: 400px;
-            margin: auto;
-            border: 3px solid;
-            margin-top: 0;
-
+            /* margin: auto; */
+            border: 1px solid black;
+            margin-right: 50px;
         }
         .row{
             height: 50px;
             width: 100%;
         }
-        .black , .white{
+        .blk,.wt{
             height: 50px;
             width: 50px;
             float: left;
-
         }
-        section{
-            height: 80vh;
-            width: 70%;
-            border: 2px solid;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-            margin-top: 70px;
-        }
-        .black{
+        .blk{
             background-color: black;
         }
-        .white{
-            background-color: white;
-        }
-        .chess{
+        nav{
+            /* border: 1px solid black; */
             display: flex;
-            /* align-items: center; */
-            justify-content: center ;
-            /* border: 2px sloid; */
-
-        }
-        .alphabets {
-            display: flex;
+            justify-content: space-around;
             align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-            /* margin-top: 60px; */
-            /* padding-right: 40px; */
-            word-spacing: 20 px;
-
+            list-style: none;
+            height: 5vh;
+            width: 400px;
+            margin: auto;
+            margin-top: 40px;
         }
-        /* .numbers{
+        .nav{
             display: flex;
-            align-items: flex-start;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
             flex-direction: column;
-        } */
+            height: 400px;
+            width: 5vw;
+        }
+        li{
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <section>
-    <div class="alphabets">
-        <p>abcdefgh</p>
-        <!-- <p>a </p><p>b</p><p>c</p> <p>d</p><p>e</p><p>f</p><p>g</p><p>h</p> -->
-    </div>
-    <!-- <div class="numbers">
-        <p>8 </p><p>7</p><p>6</p> <p>5</p><p>4</p><p>3</p><p>2</p><p>1</p>
-    </div> -->
-    <div class="chess">
-        <div class="row">
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            
+    <nav>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+        <li>f</li>
+        <li>g</li>
+        <li>h</li>
+    </nav>
+    
+    <main>
+        <div class="nav">
+            <li>8</li>
+            <li>7</li>
+            <li>6</li>
+            <li>5</li>
+            <li>4</li>
+            <li>3</li>
+            <li>2</li>
+            <li>1</li>
         </div>
-        <div class="row">
-            
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
+        <div class="chess">
+            <div class="row">
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+            </div>
+            <div class="row">
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+            </div>
+            <div class="row">
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+            </div>
+            <div class="row">
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+            </div>
+            <div class="row">
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+            </div>
+            <div class="row">
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+            </div>
+            <div class="row">
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+            </div>
+            <div class="row">
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+                <div class="wt"></div>
+                <div class="blk"></div>
+            </div>
         </div>
-        <div class="row">
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            
-        </div>
-        <div class="row">
-            
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-        </div>
-        <div class="row">
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            
-        </div>
-        <div class="row">
-            
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-        </div>
-        <div class="row">
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            
-        </div>
-        <div class="row">
-            
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-            <div class="black"></div>
-            <div class="white"></div>
-        </div>
-        
-    </div>
-</section>
+    </main>
 </body>
 </html>
